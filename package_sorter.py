@@ -2,7 +2,7 @@
 
 from decimal import Decimal, getcontext
 
-def sort(width: float, height: float, length: float, mass: float) -> str:
+def sortFunction(width: float, height: float, length: float, mass: float) -> str:
     """
     Sort packages based on their dimensions and mass.
     
@@ -15,7 +15,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
     Returns:
     str: The name of the stack where the package should go.
     
-    Raises:
+    Raises: 
     ValueError: If any input is negative or not a number.
     """
     # Input validation
